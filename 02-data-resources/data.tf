@@ -8,9 +8,6 @@ output "ami" {
   value = data.aws_ami.centos8
 }
 
-
-
-
 output "public_ip" {
   value = data.aws_instance.foo.public_ip
 }
